@@ -1,0 +1,71 @@
+body {
+  background-color: #fff0f5;
+}
+
+#headline {
+  text-align: center;
+  color: black;
+  font-family: "Abril Fatface", cursive;
+  font-style: italic;
+  text-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.card {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+form {
+  text-align: left;
+  margin: 20px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  margin-top: 20px;
+  width: 150px;
+  background-color: #ff4500;
+  border-color: transparent;
+  border-radius: 25px;
+}
+/* .btn:hover {
+  background-color: red;
+  border-color: transparent;
+
+  display: inline-block;
+  margin: 0 0.5rem;
+  transform: scale(1.2);
+} */
+
+.results-box {
+  display: flex;
+  justify-content: center;
+
+  width: 150px;
+  border-style: solid;
+  border-color: #806b72;
+  border-radius: 30px;
+  border-width: thin;
+  margin-top: 20px;
+}
+.result {
+  display: flex;
+  opacity: 100%;
+  font-style: bold;
+
+  margin-top: 20px;
+  font-size: x-large;
+  border: darkblue;
+}
+
+#footer {
+  margin-bottom: 0;
+}
