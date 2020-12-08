@@ -26,6 +26,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat:wght@100&display=swap" rel="stylesheet">
 
     <title>WPM</title>
   </head>
@@ -35,19 +37,23 @@
         <div class="row">
           <div class="col m-3 justify-self-center" id="headline">
             <h1>WPM Calculator</h1>
+            <hr>
+            <h4 class="description">This awesome calculator computes the rate with taxes excluded when all we know is the final rate and the tax percentage (especially useful properties in the US or the UAE</h4>
+
           </div>
         </div>
+        
         <!-- Calculator -->
         <div class="row justify-content-center">
           <div class="card my-card m-3" style="width: 40rem">
             <form>
-				<div class="form-group">
-				  <label for="exampleInputEmail1">Percentage</label>
+				<div class="form-group tax">
+				  <label for="exampleInputEmail1">Percentage of tax</label>
 				  <!-- Percentage -->
 				  <input type="text" class="form-control percentage" id="exampleFormControlInput1" placeholder="%">
 				</div>
-				<div class="form-group">
-				  <label for="exampleInputPassword1">Final rate</label>
+				<div class="form-group final--rate">
+				  <label for="exampleInputPassword1 ">Final rate</label>
 				  <!-- Final rate -->
 				  <input type="text" class="form-control final" id="exampleInputPassword1"placeholder="€">
 
